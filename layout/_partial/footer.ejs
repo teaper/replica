@@ -23,12 +23,11 @@ var flagcounter_img_src = config.flagcounter_img_src;
       <% }if(weibo){ %>
       <li><a href="<%= weibo %>">Weibo</a></li>
       <% }if(linkedin){ %>
-      <li><a href="<%= linkedin %>">Linkedin</a></li>
+      <li><a href="<%= linkedin %>">Twitter</a></li>
       <% } %>
     </ul>
-    <div class="footer-theme-info">
-      Theme <a href="//github.com/sabrinaluo/hexo-theme-replica">Replica</a>
-      by <a href="//github.com/sabrinaluo">Hiitea</a> ❤ Powered by Hexo
+    <div class="footer-theme-info" id="hitokoto">
+       行是知之始 ❤ 知是行之成
     </div>
     </div>
     <% if(flagcounter_href){ %>
@@ -40,3 +39,94 @@ var flagcounter_img_src = config.flagcounter_img_src;
     <% } %>
   </footer>
 </div>
+<!-- QPlayer音乐播放器 -->
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+<!-- <script src="js/jquery.min.js"></script> -->
+<!-- <script src="js/jquery.marquee.min.js"></script> -->
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
+
+<script src="/js/playlist.js"></script>
+<script src="/js/player.js"></script>
+<script>
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+<!-- Live2D血小板 -->
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="560" height="500" class="live2d"></canvas>
+    <!-- 省略隐藏按钮 -->
+</div>
+
+<!-- 鼠标单击爆炸区域 -->
+<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:1031;pointer-events:none;"></canvas>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = 'https://www.teaper.dev/'
+</script>
+<script type="text/javascript" src="/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/model/xiaoban/model.json");
+</script>
+
+<!-- 打字泡沫 -->
+<script type="text/javascript" src="/js/activate-power-mode.js"></script>
+<script>
+    POWERMODE.colorful = true;  
+    POWERMODE.shake = false;    
+    document.body.addEventListener('input', POWERMODE);
+</script>
+
+<!-- 引入一言 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<!-- <script src="/js/hitokoto.js"></script> -->
+
+<!-- 粒子特效 -->
+<!-- <script src="/js/canvas-nest.min.js"></script> -->
+
+<!-- 鼠标单击爱心特效 -->
+<script src="/js/mouse.js"></script>
+<!-- 鼠标单击爆炸特效 -->
+<script src="/js/anime.min.js"></script>
+<script src="/js/fireworks.js"></script>
+
+
