@@ -187,6 +187,4 @@ Copyright (c) 2015-2019 Hiitea <luohaojing@gmail.com>
 
 ## Buy me coffee :yum:
 BTC: 19U6USzi7WaFmY3DTkgn67EzYpTqZPNwRG  
-![image](https://user-images.githubusercontent.com/5300359/30433338-cb7a9e48-9996-11e7-8e17-55f582b56e48.png)
 
-[![Coffee Fund](https://user-images.githubusercontent.com/5300359/53497706-baf13a00-3adf-11e9-8223-5aa1c63b8779.png)](https://user-images.githubusercontent.com/5300359/53497706-baf13a00-3adf-11e9-8223-5aa1c63b8779.png)
