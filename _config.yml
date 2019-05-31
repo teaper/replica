@@ -1,11 +1,22 @@
 # left-side user profile
-avatar: 
-location: 
-email: 
+location: 广州
+qq: 2066786347
+wechat: fvh2014
+email: www@teaper.dev
+
+avatar: https://avatars2.githubusercontent.com/u/37693348?s=460&v=4	#头像
 social:
-  github: 
-  weibo: 
-  linkedin: 
+  github: https://github.com/teaper
+  gitlab: https://gitlab.com/teaper
+  bitbucket: https://bitbucket.org/TEAPER/
+  stackoverflow: https://stackoverflow.com/story/teaper
+  instagram: https://www.instagram.com/teapers/
+  weibo: https://www.weibo.com/5806191772
+  twitter: https://twitter.com/TEAPERS
+  facebook: https://www.facebook.com/teapers
+  steam: http://steamcommunity.com/id/teaper
+  twitch: https://www.twitch.tv/teapers
+  youtube: https://studio.youtube.com/channel/UC06PQb5ClUGdtNgYSEtM2Tg			#油管
 
 # navbar menu
 menu:

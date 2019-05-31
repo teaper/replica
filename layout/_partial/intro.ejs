@@ -2,9 +2,20 @@
 config.social = config.social || {};
 theme.social = theme.social || {};
 var github = config.social.github || theme.social.github;
+var gitlab = config.social.gitlab || theme.social.gitlab;
+var bitbucket = config.social.bitbucket || theme.social.bitbucket;
+var stackoverflow = config.social.stackoverflow || theme.social.stackoverflow;
+var instagram = config.social.instagram || theme.social.instagram;
 var weibo = config.social.weibo || theme.social.weibo;
-var linkedin = config.social.linkedin || theme.social.linkedin;
+var twitter = config.social.twitter || theme.social.twitter;
+var facebook = config.social.facebook || theme.social.facebook;
+var steam = config.social.steam || theme.social.steam;
+var twitch = config.social.twitch || theme.social.twitch;
+var youtube = config.social.youtube || theme.social.youtube;
+
 var location = config.location || theme.location;
+var qq = config.qq || theme.qq;
+var wechat = config.wechat || theme.wechat;
 var email = config.email || theme.email;
 var url = config.url;
 var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images/baracktocat.jpg'
@@ -21,6 +32,16 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
     <li>
       <i class="fa fa-map-marker"></i>
       <%= location %>
+    </li>
+    <% }if(qq){ %>
+    <li>
+      <i class="fa fa-qq"></i>
+      <%= qq %>
+    </li>
+    <% }if(wechat){ %>
+    <li>
+      <i class="fa fa-wechat"></i>
+      <%= wechat %>
     </li>
     <% }if(email){ %>
     <li>
@@ -45,6 +66,16 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
       <i class="fa fa-map-marker"></i>
       <%= location %>
     </li>
+    <% }if(qq){ %>
+    <li>
+      <i class="fa fa-qq"></i>
+      <%= qq %>
+    </li>
+    <% }if(wechat){ %>
+    <li>
+      <i class="fa fa-wechat"></i>
+      <%= wechat %>
+    </li>
     <% }if(email){ %>
     <li>
       <i class="fa fa-envelope-o"></i>
@@ -62,10 +93,26 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
     <ul>
       <% if(github){ %>
       <li class="social-media-item"><a href="<%= github %>" target="_blank"><i class="fa fa-github"></i></a></li>
+      <% } if(gitlab){ %>
+      <li class="social-media-item"><a href="<%= gitlab %>" target="_blank"><i class="fa fa-gitlab"></i></a></li>
+      <% } if(bitbucket){ %>
+      <li class="social-media-item"><a href="<%= bitbucket %>" target="_blank"><i class="fa fa-bitbucket-square"></i></a></li>
+      <% } if(stackoverflow){ %>
+      <li class="social-media-item"><a href="<%= stackoverflow %>" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+      <% } if(instagram){ %>
+      <li class="social-media-item"><a href="<%= instagram %>" target="_blank"><i class="fa fa-instagram"></i></a></li>
       <% } if(weibo){ %>
       <li class="social-media-item"><a href="<%= weibo %>" target="_blank"><i class="fa fa-weibo"></i></a></li>
-      <% } if(linkedin){ %>
-      <li class="social-media-item"><a href="<%= linkedin %>" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      <% } if(twitter){ %>
+      <li class="social-media-item"><a href="<%= twitter %>" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      <% } if(facebook){ %>
+      <li class="social-media-item"><a href="<%= facebook %>" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+      <% } if(steam){ %>
+      <li class="social-media-item"><a href="<%= steam %>" target="_blank"><i class="fa fa-steam-square"></i></a></li>
+      <% } if(twitch){ %>
+      <li class="social-media-item"><a href="<%= twitch %>" target="_blank"><i class="fa fa-twitch"></i></a></li>
+      <% } if(youtube){ %>
+      <li class="social-media-item"><a href="<%= youtube %>" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
       <% } %>
     </ul>
   </div>
