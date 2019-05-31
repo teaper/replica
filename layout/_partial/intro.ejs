@@ -12,6 +12,10 @@ var facebook = config.social.facebook || theme.social.facebook;
 var steam = config.social.steam || theme.social.steam;
 var twitch = config.social.twitch || theme.social.twitch;
 var youtube = config.social.youtube || theme.social.youtube;
+var bilibili = config.social.bilibili || theme.social.bilibili;
+var docker = config.social.docker || theme.social.docker;
+var npm = config.social.npm || theme.social.npm;
+var csdn = config.social.csdn || theme.social.csdn;
 
 var location = config.location || theme.location;
 var qq = config.qq || theme.qq;
@@ -113,6 +117,15 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
       <li class="social-media-item"><a href="<%= twitch %>" target="_blank"><i class="fa fa-twitch"></i></a></li>
       <% } if(youtube){ %>
       <li class="social-media-item"><a href="<%= youtube %>" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+      <% } if(bilibili){ %>
+      <li class="social-media-item"><a href="<%= bilibili %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-CN_bilibiliB" style="font-size:34px"></i></a></li>
+      <% } if(docker){ %>
+      <li class="social-media-item"><a href="<%= docker %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-Docker" style="font-size:25px"></i></a></li>
+      <% } if(npm){ %>
+      <li class="social-media-item"><a href="<%= npm %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-npm" style="font-size:26px"></i></a></li>
+      <% } if(csdn){ %>
+      <li class="social-media-item"><a href="<%= csdn %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-csdn" style="font-size:24px"></i></a></li>
+
       <% } %>
     </ul>
   </div>
