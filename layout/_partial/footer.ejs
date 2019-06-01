@@ -3,7 +3,7 @@ config.social = config.social || {};
 theme.social = theme.social || {};
 var github = config.social.github || theme.social.github;
 var weibo = config.social.weibo || theme.social.weibo;
-var linkedin = config.social.linkedin || theme.social.linkedin;
+var twitter = config.social.twitter || theme.social.twitter;
 var location = config.location || theme.location;
 var url = config.url;
 var flagcounter_href = config.flagcounter_href;
@@ -22,8 +22,8 @@ var flagcounter_img_src = config.flagcounter_img_src;
       <li><a href="<%= github %>">Github</a></li>
       <% }if(weibo){ %>
       <li><a href="<%= weibo %>">Weibo</a></li>
-      <% }if(linkedin){ %>
-      <li><a href="<%= linkedin %>">Twitter</a></li>
+      <% }if(twitter){ %>
+      <li><a href="<%= twitter %>">Twitter</a></li>
       <% } %>
     </ul>
     <div class="footer-theme-info" id="hitokoto">

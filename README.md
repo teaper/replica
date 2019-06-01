@@ -1,8 +1,8 @@
 # Replica [![LICENSE MIT](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-Github style replication for hexo theme. 
+[Github style](https://github.com/sabrinaluo/hexo-theme-replica) replication for hexo theme. 
 
 Just in case you are working in the office but suddenly have some genius ideas. :two_hearts:  
-[Click here to view the demo site](//sabrinaluo.github.io/tech)
+[Click here to view the demo site](https://www.teaper.dev)
 
 Issues & Contributions are welcome! :stuck_out_tongue:
 
@@ -16,11 +16,11 @@ Github UI in 2017, which uses the black navbar
 ## Setup
 #### Install
 ```
-git clone git@github.com:sabrinaluo/hexo-theme-replica.git themes/replica
+git clone git@github.com:teaper/replica.git themes/replica
 ```
 or
 ```
-git clone https://github.com/sabrinaluo/hexo-theme-replica.git themes/replica
+git clone https://github.com/teaper/replica.git themes/replica
 ```
 
 #### Configure

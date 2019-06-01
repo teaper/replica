@@ -1,32 +1,33 @@
 # left-side user profile
-location: 广州
-qq: 2066786347
-wechat: fvh2014
-email: www@teaper.dev
+location: #广州
+qq: #2066786347
+wechat: #fvh2014
+email: #www@teaper.dev
 
-avatar: https://avatars2.githubusercontent.com/u/37693348?s=460&v=4	#头像
+avatar: #https://avatars2.githubusercontent.com/u/37693348?s=460&v=4	#头像
 social:
-  github: https://github.com/teaper
-  gitlab: https://gitlab.com/teaper
-  bitbucket: https://bitbucket.org/TEAPER/
-  stackoverflow: https://stackoverflow.com/story/teaper
-  instagram: https://www.instagram.com/teapers/
-  weibo: https://www.weibo.com/5806191772
-  twitter: https://twitter.com/TEAPERS
-  facebook: https://www.facebook.com/teapers
-  steam: http://steamcommunity.com/id/teaper
-  twitch: https://www.twitch.tv/teapers
-  youtube: https://studio.youtube.com/channel/UC06PQb5ClUGdtNgYSEtM2Tg			#油管
-  bilibili: https://space.bilibili.com/259649933
-  docker: https://hub.docker.com/u/teaper
-  npm: https://www.npmjs.com/settings/teaper/packages
-  csdn: https://blog.csdn.net/qq_27170897
+  github: #https://github.com/teaper
+  gitlab: #https://gitlab.com/teaper
+  bitbucket: #https://bitbucket.org/TEAPER/
+  stackoverflow: #https://stackoverflow.com/story/teaper
+  instagram: #https://www.instagram.com/teapers/
+  weibo: #https://www.weibo.com/5806191772
+  twitter: #https://twitter.com/TEAPERS
+  facebook: #https://www.facebook.com/teapers
+  steam: #http://steamcommunity.com/id/teaper
+  twitch: #https://www.twitch.tv/teapers
+  youtube: #https://studio.youtube.com/channel/UC06PQb5ClUGdtNgYSEtM2Tg			#油管
+  bilibili: #https://space.bilibili.com/259649933
+  docker: #https://hub.docker.com/u/teaper
+  npm: #https://www.npmjs.com/settings/teaper/packages
+  csdn: #https://blog.csdn.net/qq_27170897
 
 # navbar menu
 menu:
  archives: true
  tags: true
  categories: true
+ links: true
 
 rss_dir: atom.xml
 
@@ -39,3 +40,4 @@ gsc: # google custom search code
 # flagcounter
 flagcounter_href: # https://info.flagcounter.com/xxxx
 flagcounter_img_src: # https://s01.flagcounter.com/xxxx
+ 
