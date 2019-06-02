@@ -280,7 +280,7 @@ function(t) {
 		return n <= u && u <= s && _ <= p && p <= a
 	},
 	r.prototype.hitTestSimpleCustom = function(t, i, e, r) {
-		return null !== this.live2DModel && (e >= t[0] && e <= i[0] && r <= t[1] && r >= i[1])
+		return null !== this.live2DModel && (e >= t[0] && e <= i[0] && r <= t[1] && r >= i[1]);
 	},
 	o.prototype = new AMotion,
 	o.EXPRESSION_DEFAULT = "DEFAULT",
