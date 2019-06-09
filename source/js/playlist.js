@@ -46,7 +46,11 @@ var playlist = [
 {title:"仙剑问情",artist:"萧人凤",mp3:"http://fs.open.kugou.com/c910346617457a39c89f76bf9d535953/5ceca4b8/G001/M01/08/13/QQ0DAFS3AtGAK1RmAD3r0yHdNHY032.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20150112/20150112102446121545.jpg?param=106x106",},
 {title:"桃源恋歌",artist:"GARNiDELiA",mp3:"http://fs.open.kugou.com/e2cf4d84ad7ab534608a0d10690c9a84/5ceca446/G123/M09/0C/00/uw0DAFq6hR2AHseOADgmvMarDHg157.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181101/20181101183056556.jpg?param=106x106",},
 {title:"美丽的神话",artist:"白冰、胡歌",mp3:"http://fs.open.kugou.com/c6a73961afc6cf436901c57e32ebd00c/5ceca27f/G003/M06/17/0F/Qw0DAFS5DVaADRFnAFCJpAjWxrM130.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20110704/20110704111056705.jpg?param=106x106",},
+{title:"幹物女",artist:"封茗囧菌",mp3:"http://fs.open.kugou.com/8afbfb74da4c63dcbe75a549a7f73332/5cfd05ac/G095/M0A/03/03/P5QEAFkeuPmAZiLXADbcvSLvGB4049.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181112/20181112161333967.jpg?param=106x106",},
+{title:"放你走",artist:"正点",mp3:"http://fs.open.kugou.com/74f477dc6526b9b5b28be2bf1b2322a7/5cfd055b/G129/M07/11/14/YZQEAFsWcB6AIra5AD04PgBAfGo249.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20180523/20180523140647216.jpg?param=106x106",},
+{title:"空心",artist:"光泽",mp3:"http://fs.open.kugou.com/ad89b7b83571fc4ec509326bb95027a0/5cfd05fd/G079/M02/03/03/L5QEAFgC-lqARXZbAEQj_2Q0CXQ983.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20161216/20161216154236573.jpg?param=106x106",},
 /*{title:"",artist:"",mp3:".mp3",cover:".jpg?param=106x106",},*/
+/*音乐外链获取：http://www.biaobaishike.com/yinyue.php*/
 ];
 var isRotate = true;
 var autoplay = false;
