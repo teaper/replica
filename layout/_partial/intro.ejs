@@ -20,6 +20,7 @@ var csdn = config.social.csdn || theme.social.csdn;
 var location = config.location || theme.location;
 var qq = config.qq || theme.qq;
 var wechat = config.wechat || theme.wechat;
+var telegram = config.telegram || theme.telegram;
 var email = config.email || theme.email;
 var url = config.url;
 var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images/baracktocat.jpg'
@@ -79,6 +80,11 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
     <li>
       <i class="fa fa-wechat"></i>
       <%= wechat %>
+    </li>
+    <% }if(telegram){ %>
+    <li>
+      <i class="fa fa-send"></i>
+      <a href="<%= telegram %>"><%= telegram %></a>
     </li>
     <% }if(email){ %>
     <li>
