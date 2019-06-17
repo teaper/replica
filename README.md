@@ -5,14 +5,7 @@ Just in case you are working in the office but suddenly have some genius ideas. 
 [Click here to view the demo site](https://www.teaper.dev)
 
 Issues & Contributions are welcome! :stuck_out_tongue:
-
-## Version
-#### v1.0  
-Github UI before 2017, which uses the grey navbar
-
-#### v2.0 (in progress)  
-Github UI in 2017, which uses the black navbar
-
+  
 ## Setup
 #### Install
 ```
@@ -33,25 +26,24 @@ It's suggested to configure your site through `blog_root/_config.yml` **(root fo
 Here is a sample of `blog_root/_config.yml`
 <details>
 <summary>CLICK ME</summary>
-<p>
-
+  
 ``` yml
 # Hexo Configuration
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Blog
-description: My Blog Description
-author: HiiTea
+title: TEAPER
+description: 一个人学会思考，比学会啥都强！
+author: teaper
 language: zh-CN
 timezone: Asia/Shanghai
-favicon: https://assets-cdn.github.com/favicon.ico
+favicon: https://i.loli.net/2019/06/04/5cf683cea837456459.jpeg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://sabrinaluo.com/tech
-root: /tech/
+url: https://www.teaper.dev
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -59,14 +51,16 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
+link_dir: links
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+
 # Writing
-new_post_name: :year:month:day-:title.md # File name of new posts
+new_post_name: :title.md # File name of new posts year:month:day-:title.md
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -103,8 +97,15 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: replica
 
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/teaper/hexoblog.git
+  branch: gh-pages
+
 # Google Analytics
-ga: # GA code UA-XXXXXXXX-X
+ga: UA-140493383-1 # GA code UA-XXXXXXXX-X
 
 #marked setting for markdown
 marked:
@@ -116,36 +117,67 @@ marked:
   smartLists: true
   smartypants: true
 
-gcs: # GOOGLE CUSTOM SEARCH
-baidutongji: # BAIDU TONGJI CODE
-disqus: # DISQUS ID
+gcs: 014633199185561276043:bpv9wnr4qhc # GOOGLE CUSTOM SEARCH
+baidutongji:  # BAIDU TONGJI CODE
+disqus: teaperdev
 
-location: Hong Kong
-email: xx@example.com
+location: 广州
+qq: 2066786347
+wechat: fvh2014
+telegram: https://t.me/teaper
+email: www@teaper.dev
 
-avatar: https://avatars2.githubusercontent.com/u/5300359?v=4&s=460
+avatar: https://i.loli.net/2019/06/04/5cf683cea837456459.jpeg
 social:
-  github: https://github.com/sabrinaluo
-  weibo: http://weibo.com/206663121
-  linkedin:
+  github: https://github.com/teaper
+  gitlab: https://gitlab.com/teaper
+  bitbucket: https://bitbucket.org/TEAPER/
+  stackoverflow: https://stackoverflow.com/story/teaper
+  instagram: https://www.instagram.com/teapers/
+  weibo: https://www.weibo.com/5806191772
+  twitter: https://twitter.com/TEAPERS
+  facebook: https://www.facebook.com/teapers
+  steam: http://steamcommunity.com/id/teaper
+  twitch: https://www.twitch.tv/teapers
+  youtube: https://studio.youtube.com/channel/UC06PQb5ClUGdtNgYSEtM2Tg			
+  bilibili: https://space.bilibili.com/259649933
+  docker: https://hub.docker.com/u/teaper
+  npm: https://www.npmjs.com/settings/teaper/packages
+  csdn: https://blog.csdn.net/qq_27170897
 
 # flagcounter
-flagcounter_href: # https://info.flagcounter.com/xxxx
-flagcounter_img_src: # https://s01.flagcounter.com/xxxx
-```
+flagcounter_href: https://info.flagcounter.com/MrmG # https://info.flagcounter.com/xxxx
+flagcounter_img_src: https://s04.flagcounter.com/count2/MrmG/bg_FFFFFF/txt_6A737D/border_FFFFFF/columns_7/maxflags_14/viewers_3/labels_1/pageviews_1/flags_0/percent_0/ # https://s01.flagcounter.com/xxxx
 
-#### Update
-``` bash
-cd themes/replica
-git pull
-```
+# RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit:
+    content_limit_delim: ' '
 
-In case you want the old version with grey navbar
-``` bash
-cd themes/replica
-git checkout 1.0 # AKA `git checkout -b 1.0 origin/1.0`
+# Nofollow Config
+nofollow:
+     enable: true
+     exclude: https://github.com/teaper 
+
+# SiteMap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
+# gitalk
+gitalk:
+  enable: true      
+  client_id: 79a82d93fcd761032f45        
+  client_secret: b784392d66d81a991565a56598f2d369e71e21ad    
+  repo: hexoblog	     
+  owner: teaper    
 ```
-</p>
 </details>
 
 ## Available Widgets
