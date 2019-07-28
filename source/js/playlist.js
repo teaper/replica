@@ -49,9 +49,6 @@ var playlist = [
 {title:"幹物女",artist:"封茗囧菌",mp3:"http://fs.open.kugou.com/8afbfb74da4c63dcbe75a549a7f73332/5cfd05ac/G095/M0A/03/03/P5QEAFkeuPmAZiLXADbcvSLvGB4049.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181112/20181112161333967.jpg?param=106x106",},
 {title:"放你走",artist:"正点",mp3:"http://fs.open.kugou.com/74f477dc6526b9b5b28be2bf1b2322a7/5cfd055b/G129/M07/11/14/YZQEAFsWcB6AIra5AD04PgBAfGo249.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20180523/20180523140647216.jpg?param=106x106",},
 {title:"空心",artist:"光泽",mp3:"http://fs.open.kugou.com/ad89b7b83571fc4ec509326bb95027a0/5cfd05fd/G079/M02/03/03/L5QEAFgC-lqARXZbAEQj_2Q0CXQ983.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20161216/20161216154236573.jpg?param=106x106",},
-{title:"清平乐·禁庭春昼",artist:"紫宁",mp3:"https://webfs.yun.kugou.com/201907170655/c40c155f5f76452c7403502f76d1bd73/G167/M03/07/15/h5QEAF0bU2aALyxSACvki7dE4bY038.mp3",cover:"https://p3fx.kgimg.com/stdmusic/20190702/20190702204611974155.jpg?param=106x106",},
-{title:"短歌行",artist:"刘梅",mp3:"https://webfs.yun.kugou.com/201907170700/be7517cdbb6b9793baa40af71cab7be0/G162/M06/16/15/4g0DAF0ZlTCASTVbACKenQdHuJU002.mp3",cover:"https://imgessl.kugou.com/uploadpic/softhead/400/20190505/20190505111619986978.jpg?param=106x106",},
-{title:"比心小幸福",artist:"祈锦鈅",mp3:"https://webfs.yun.kugou.com/201907170712/bad9a2c50d3f9c80bd7128593207e941/G111/M05/04/13/T5QEAFxT_zmALY4eADsSRpGrrQM134.mp3",cover:"https://p3fx.kgimg.com/stdmusic/20190201/20190201165930608096.jpg?param=106x106",},
 /*{title:"",artist:"",mp3:".mp3",cover:".jpg?param=106x106",},*/
 /*音乐外链获取：http://www.biaobaishike.com/yinyue.php*/
 ];
