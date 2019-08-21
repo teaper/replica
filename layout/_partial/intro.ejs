@@ -23,7 +23,7 @@ var wechat = config.wechat || theme.wechat;
 var telegram = config.telegram || theme.telegram;
 var email = config.email || theme.email;
 var url = config.url;
-var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images/baracktocat.jpg'
+var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kWbIoly1g6708qjctsj30dc0dc769.jpg'
 %>
 
 <div class="blog-intro">
@@ -41,7 +41,7 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
     <% }if(qq){ %>
     <li>
       <i class="fa fa-qq"></i>
-      <%= qq %>
+	  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2066786347&site=qq&menu=yes"><%= qq %></a> 
     </li>
     <% }if(wechat){ %>
     <li>

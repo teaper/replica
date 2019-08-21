@@ -81,6 +81,16 @@ function bgChange(){
 	var lis= $('.lib');
 	for(var i=0; i<lis.length; i+=2)
 	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+	
+	$(".avatar").hover(function(){
+		$(".avatar").attr({
+		"src" : "http://ww1.sinaimg.cn/large/006kWbIoly1g670t7b6buj30lt0ltmz2.jpg"
+		});
+	},function(){
+		$(".avatar").attr({
+		"src" : "https://i.loli.net/2019/06/04/5cf683cea837456459.jpeg"
+		});
+	});
 }
 window.onload = bgChange;
 </script>
