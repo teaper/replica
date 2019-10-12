@@ -16,11 +16,14 @@ var bilibili = config.social.bilibili || theme.social.bilibili;
 var docker = config.social.docker || theme.social.docker;
 var npm = config.social.npm || theme.social.npm;
 var csdn = config.social.csdn || theme.social.csdn;
+var telegram = config.social.telegram || theme.social.telegram;
+var slack = config.social.slack || theme.social.slack;
+var coding = config.social.coding || theme.social.coding;
 
 var location = config.location || theme.location;
 var qq = config.qq || theme.qq;
+var qqgroup = config.qqgroup || theme.qqgroup;
 var wechat = config.wechat || theme.wechat;
-var telegram = config.telegram || theme.telegram;
 var email = config.email || theme.email;
 var url = config.url;
 var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kWbIoly1g6708qjctsj30dc0dc769.jpg'
@@ -42,6 +45,11 @@ var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kW
     <li>
       <i class="fa fa-qq"></i>
 	  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2066786347&site=qq&menu=yes"><%= qq %></a> 
+    </li>
+    <% }if(qqgroup){ %>
+    <li>
+      <i class="icon iconfont icon-tree-round-QQgroup"></i>
+      <%= qqgroup %>
     </li>
     <% }if(wechat){ %>
     <li>
@@ -76,15 +84,15 @@ var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kW
       <i class="fa fa-qq"></i>
       <%= qq %>
     </li>
+	<% }if(qqgroup){ %>
+    <li>
+      <i class="icon iconfont icon-tree-round-QQgroup"></i>
+      <%= qqgroup %>
+    </li>
     <% }if(wechat){ %>
     <li>
       <i class="fa fa-wechat"></i>
       <%= wechat %>
-    </li>
-    <% }if(telegram){ %>
-    <li>
-      <i class="fa fa-send"></i>
-      <a href="<%= telegram %>"><%= telegram %></a>
     </li>
     <% }if(email){ %>
     <li>
@@ -107,6 +115,8 @@ var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kW
       <li class="social-media-item"><a href="<%= gitlab %>" target="_blank"><i class="fa fa-gitlab" style="color:#000"></i></a></li>
       <% } if(bitbucket){ %>
       <li class="social-media-item"><a href="<%= bitbucket %>" target="_blank"><i class="fa fa-bitbucket-square" style="color:#000"></i></a></li>
+	  <% } if(coding){ %>
+      <li class="social-media-item"><a href="<%= coding %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-CN_codingnet" style="font-size:40px;color:#000"></i></a></li>
       <% } if(stackoverflow){ %>
       <li class="social-media-item"><a href="<%= stackoverflow %>" target="_blank"><i class="fa fa-stack-overflow" style="color:#000"></i></a></li>
       <% } if(instagram){ %>
@@ -123,16 +133,20 @@ var avatar = config.avatar || theme.avatar || 'http://ww1.sinaimg.cn/large/006kW
       <li class="social-media-item"><a href="<%= twitch %>" target="_blank"><i class="fa fa-twitch" style="color:#000"></i></a></li>
       <% } if(youtube){ %>
       <li class="social-media-item"><a href="<%= youtube %>" target="_blank"><i class="fa fa-youtube-play" style="color:#000"></i></a></li>
-      <% } if(bilibili){ %>
-      <li class="social-media-item"><a href="<%= bilibili %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-CN_bilibiliB" style="font-size:34px;color:#000"></i></a></li>
+	  <% } if(slack){ %>
+      <li class="social-media-item"><a href="<%= slack %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-slack" style="font-size:25px;color:#000"></i></a></li>
+	  <% } if(telegram){ %>
+      <li class="social-media-item"><a href="<%= telegram %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-telegram" style="font-size:25px;color:#000"></i></a></li>
       <% } if(docker){ %>
-      <li class="social-media-item"><a href="<%= docker %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-Docker" style="font-size:25px;color:#000"></i></a></li>
+      <li class="social-media-item"><a href="<%= docker %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-docker" style="font-size:25px;color:#000"></i></a></li>
       <% } if(npm){ %>
       <li class="social-media-item"><a href="<%= npm %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-npm" style="font-size:26px;color:#000"></i></a></li>
       <% } if(csdn){ %>
       <li class="social-media-item"><a href="<%= csdn %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-csdn" style="font-size:24px;color:#000"></i></a></li>
+	  <% } if(bilibili){ %>
+      <li class="social-media-item"><a href="<%= bilibili %>" target="_blank" style="text-decoration:none"><i class="icon iconfont icon-CN_bilibiliB" style="font-size:34px;color:#000"></i></a></li>
 
-      <% } %>
+	  <% } %>
     </ul>
   </div>
 </div>

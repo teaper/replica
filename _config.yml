@@ -1,8 +1,8 @@
 # left-side user profile
 location: #广州
 qq: #2066786347
+qqgroup: #QQ群787979167
 wechat: #fvh2014
-telegram: #https://t.me/teaper
 email: #www@teaper.dev
 
 avatar: #https://avatars2.githubusercontent.com/u/37693348?s=460&v=4	#头像
@@ -22,6 +22,9 @@ social:
   docker: #https://hub.docker.com/u/teaper
   npm: #https://www.npmjs.com/settings/teaper/packages
   csdn: #https://blog.csdn.net/qq_27170897
+  telegram: #https://t.me/teaper
+  slack: #https://teaper.herokuapp.com
+  coding: #https://coding.net/u/TEAPER
 
 # navbar menu
 menu:

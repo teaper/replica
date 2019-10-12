@@ -123,8 +123,8 @@ disqus: teaperdev
 
 location: 广州
 qq: 2066786347
+qqgroup: 787979167
 wechat: fvh2014
-telegram: https://t.me/teaper
 email: www@teaper.dev
 
 avatar: https://i.loli.net/2019/06/04/5cf683cea837456459.jpeg
@@ -144,6 +144,9 @@ social:
   docker: https://hub.docker.com/u/teaper
   npm: https://www.npmjs.com/settings/teaper/packages
   csdn: https://blog.csdn.net/qq_27170897
+  telegram: https://t.me/teaper
+  slack: https://teaper.herokuapp.com
+  coding: https://coding.net/u/TEAPER
 
 # flagcounter
 flagcounter_href: https://info.flagcounter.com/MrmG # https://info.flagcounter.com/xxxx
