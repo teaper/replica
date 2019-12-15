@@ -1,4 +1,5 @@
 var playlist = [
+{title:"Eden",artist:"丁丁",mp3:"https://webfs.yun.kugou.com/201912152309/00e92fa4d333da7362673608b123c397/G175/M03/1C/1F/7w0DAF3qL-SARfQZADeWl3Q4_zY821.mp3",cover:"https://p3fx.kgimg.com/stdmusic/20191206/20191206181306106039.jpg?param=106x106",},
 {title:"Lovely Day",artist:"朴信惠",mp3:"http://fs.open.kugou.com/2925e0aa5e1dbbac899c4dc95661bad6/5ceb6418/G006/M07/1C/18/poYBAFS5wk6AXMkqADCFZFnRisU820.mp3",cover:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20170711/20170711145703533.jpg?param=106x106",},
 {title:"起风了",artist:"买辣椒也用券",mp3:"http://fs.open.kugou.com/d6cde41d2513b5d55822d9b736f069d5/5ceb64f5/G117/M04/09/11/VZQEAFyLqDSAMZdUAEimgFeiNtg723.mp3",cover:"http://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=106x106",},
 {title:"心如止水",artist:"Ice Paper",mp3:"http://fs.open.kugou.com/b3f975be33635ba5306f0487ddbc0074/5ceb64d3/G117/M08/13/1F/tQ0DAFx5A3uAfPOBAC1GYIo2lU0616.mp3",cover:"http://p1.music.126.net/MLQl_7poLz2PTON6_JZZRQ==/109951163938219545.jpg?param=106x106",},
