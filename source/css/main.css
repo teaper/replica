@@ -153,7 +153,7 @@ nav ul li a {
 }
 
 a, a:link, a:hover, a:visited, nav a:hover {
-  color: #4078c0;
+  color: #24292e;
   text-decoration: none;
 }
 
@@ -925,3 +925,4 @@ pre .xml .cdata {
   font-weight: bold;
   font-size: 15px;
 }
+
