@@ -38,7 +38,7 @@ var files = config.files || theme.files
         <li><a href="<%= url_for(theme.link_dir) %>">Links</a></li>
         <% } %>
 		<% if(files){ %>
-        <li><a href="<%= files %>" target="_blank">Files</a></li>
+        <li><a href="<%= files %>">Files</a></li>
         <% } %>
         <% if(theme.rss_dir){ %>
         <li class="desktop-only"><a href="<%= url_for(theme.rss_dir) %>" target="_blank">RSS</a></li>
