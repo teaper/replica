@@ -1,5 +1,6 @@
 <%
-var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images/baracktocat.jpg'
+var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images/baracktocat.jpg';
+var files = config.files || theme.files
 %>
 <nav class="navbar-wrapper">
   <div class="navbar">
@@ -7,12 +8,20 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
       <a href="<%= config.root %>" class="navbar-logo"><i class="fa fa-github"></i></a>
 
       <div class="navbar-search float-left desktop-only">
-        <div class="navbar-search-form">
+        <!-- <div class="navbar-search-form">
           <label for="gsc-i-id1">This website</label>
           <div id="google-search">
             <gcse:search></gcse:search>
           </div>
+        </div> -->
+
+		<div class="navbar-search-form">
+		  <label for="gsc-i-id1">THIS WEBSITE</label>
+          <div id="site_search">
+        	<input type="text" id="local-search-input" style="" results="0"/>
+          </div>
         </div>
+		
       </div>
 
       <ul class="navbar-nav float-left">
@@ -27,6 +36,9 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
         <% } %>
         <% if(theme.menu.links){ %>
         <li><a href="<%= url_for(theme.link_dir) %>">Links</a></li>
+        <% } %>
+		<% if(files){ %>
+        <li><a href="<%= files %>" target="_blank">Files</a></li>
         <% } %>
         <% if(theme.rss_dir){ %>
         <li class="desktop-only"><a href="<%= url_for(theme.rss_dir) %>" target="_blank">RSS</a></li>
@@ -44,6 +56,10 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
           <a><img src="<%= avatar %>"> <i class="fa fa-caret-down"></i></i></a>
         </li>
       </ul>
+	  <!-- 站内搜索结果 -->
+	  <br>
+      <div id="local-search-result"></div>
+
     </div>
   </div>
 </nav>
