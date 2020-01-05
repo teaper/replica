@@ -15,5 +15,7 @@ var isOverview = ['links','tags', 'archives', 'categories'].indexOf(nav_selected
       <a href="<%= url_for(theme.tag_dir) %>">Tags <span class="counter"><%= site.tags.length %></span></a></li>
     <li class="<%= nav_selected === 'links' ? 'selected' : '' %>">
       <a href="<%= url_for(theme.link_dir) %>">Links</a></li>
+	<li class="<%= nav_selected === 'files' ? 'selected' : '' %>">
+      <a href="<%= url_for(theme.file_dir) %>">Files</a></li>
   </ul>
 </nav>

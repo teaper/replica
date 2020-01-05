@@ -5,7 +5,7 @@ qqgroup: #QQ群787979167
 wechat: #fvh2014
 email: #www@teaper.dev
 
-files: #http://文件服务器/
+filesLink: #http://文件服务器/
 avatar: #https://avatars2.githubusercontent.com/u/37693348?s=460&v=4	#头像
 social:
   github: #https://github.com/teaper
@@ -33,6 +33,7 @@ menu:
  tags: true
  categories: true
  links: true
+ files: true
 
 rss_dir: atom.xml
 
