@@ -82,5 +82,5 @@ var searchFunc = function(path, search_id, content_id) {
         }
     })
 };
-var path = "http://"+window.location.host+"/search.xml";
+var path = "https://"+window.location.host+"/search.xml";
 searchFunc(path, 'local-search-input', 'local-search-result');
