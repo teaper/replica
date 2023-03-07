@@ -7,6 +7,9 @@ figure.highlight
   border-radius: 3px
   word-wrap: normal
 
+figure.highlight::-webkit-scrollbar
+  display: none
+
   pre
     margin: 0
     font-size: 85%
@@ -28,7 +31,7 @@ pre
   font-variant-numeric: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 12px;
+  font-size: 13px;
   line-height: normal;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   @media (max-width: $screen-sm)
@@ -72,3 +75,6 @@ pre
 
   .link
     text-decoration: underline
+  
+  .gutter
+    display: none

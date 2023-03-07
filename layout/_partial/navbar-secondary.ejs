@@ -1,5 +1,5 @@
 <%
-var isOverview = ['links','tags', 'archives', 'categories'].indexOf(nav_selected) === -1
+var isOverview = ['links', 'tags', 'archives', 'categories'].indexOf(nav_selected) === -1
 %>
 <nav class="blog-detail-nav desktop-only">
   <ul class="clearfix">
@@ -12,10 +12,10 @@ var isOverview = ['links','tags', 'archives', 'categories'].indexOf(nav_selected
       <a href="<%= url_for(theme.category_dir) %>">Categories <span
                 class="counter"><%= site.categories.length %></span></a></li>
     <li class="<%= nav_selected === 'tags' ? 'selected' : '' %>">
-      <a href="<%= url_for(theme.tag_dir) %>">Tags <span class="counter"><%= site.tags.length %></span></a></li>
+      <a href="<%= url_for(theme.tag_dir) %>">Tags <span class="counter"><%= site.tags.length %></span></a>
+    </li>
     <li class="<%= nav_selected === 'links' ? 'selected' : '' %>">
-      <a href="<%= url_for(theme.link_dir) %>">Links</a></li>
-	<li class="<%= nav_selected === 'files' ? 'selected' : '' %>">
-      <a href="<%= url_for(theme.file_dir) %>">Files</a></li>
+      <a href="<%= url_for(theme.link_dir) %>">Links</a>
+    </li>
   </ul>
 </nav>

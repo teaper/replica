@@ -6,8 +6,6 @@ var weibo = config.social.weibo || theme.social.weibo;
 var twitter = config.social.twitter || theme.social.twitter;
 var location = config.location || theme.location;
 var url = config.url;
-var flagcounter_href = config.flagcounter_href;
-var flagcounter_img_src = config.flagcounter_img_src;
 %>
 <div class="footer-wrapper container">
   <footer class="footer clearfix">
@@ -30,13 +28,6 @@ var flagcounter_img_src = config.flagcounter_img_src;
        行是知之始 ❤ 知是行之成
     </div>
     </div>
-    <% if(flagcounter_href){ %>
-    <div class="footer-pageview">
-        <a href="<%= flagcounter_href %>">
-          <img src="<%= flagcounter_img_src %>">
-        </a>
-    </div>
-    <% } %>
   </footer>
 </div>
 <!-- QPlayer音乐播放器 -->
@@ -84,7 +75,7 @@ function bgChange(){
 	
 	$(".avatar").hover(function(){
 		$(".avatar").attr({
-		"src" : "http://ww1.sinaimg.cn/large/006kWbIoly1g763f4h9w5j30np0np40j.jpg"
+		"src" : "https://s1.ax1x.com/2023/03/07/ppeJ9IK.jpg"
 		});
 	},function(){
 		$(".avatar").attr({

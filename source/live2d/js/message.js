@@ -20,13 +20,6 @@ String.prototype.renderTip = function (context) {
     return renderTip(this, context);
 };
 
-var re = /x/;
-console.log(re);
-re.toString = function() {
-    showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000);
-    return '';
-};
-
 $(document).on('copy', function (){
     showMessage('你都复制了些什么呀，转载要记得加上出处哦~~', 5000);
 });
